@@ -8,6 +8,7 @@ The goal is to implement a **simplified AI Email Agent** able to:
 2. Reconstruct conversation threads — even when technical fields are missing
 3. Identify or tag key events (e.g. proposal, approval, confirmation, rejection, request)
 4. Optionally use an **LLM Arbiter (Google Gemini)** to validate ambiguous relationships between emails
+5. Demonstrate a **basic RAG-like interaction**, where the system can answer simple natural language questions based on the reconstructed threads.
 
 The solution should demonstrate your ability to design, structure, and document a modular Python-based pipeline.
 
