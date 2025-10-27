@@ -1,4 +1,4 @@
-# Email Agent — LLM Arbiter (Mini POC)
+# Email Agent — LLM Arbiter
 
 ## Overview
 This repository provides the dataset and task description for a **24-hour technical assignment**.
