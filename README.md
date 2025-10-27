@@ -44,18 +44,13 @@ We recommend structuring the project in a modular way (e.g. `data_layer.py`, `th
 ---
 
 ## Gemini API (Optional)
-If you decide to integrate the **LLM Arbiter**:
-1. Use this Api key AIzaSyDT8UUuWORYe_hmzTEIJ1qDd4HJFmxJ2gY
-2. Export it as an environment variable:
-   ```bash
-   export GOOGLE_API_KEY="AIzaSyDT8UUuWORYe_hmzTEIJ1qDd4HJFmxJ2gY"
-
+If you decide to integrate the **LLM Arbiter** you can create a free api key with Google AI Studio
 
 ---
 
 ## Deliverables
 - Your full codebase (Python)
 - A short `README.md` explaining your approach and architecture
-- Example output or logs
+- Example output and logs (optional)
 
 Good luck!
