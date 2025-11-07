@@ -53,4 +53,45 @@ If you decide to integrate the **LLM Arbiter** you can create a free api key wit
 - A short `README.md` explaining your approach and architecture
 - Example output and logs (optional)
 
+ ---
+
+## Cost & Architecture Assessment (Optional)
+
+### Goal
+
+Provide a cost estimation and reference architecture for scaling the Email Agent — LLM Arbiter system to handle a real-world dataset of 100 GB of emails, covering the full AI and semantic-search (RAG) workflow.
+
+You must:
+* Define assumptions  
+* Propose a final architecture (diagram or descriptive schema)
+* Estimate operational and setup costs (OPEX / CAPEX)
+* Justify technology choices (e.g., PostgreSQL vs DynamoDB, Pinecone vs Chroma, Mistral vs GPT)
+* Discuss main trade-offs (cost vs quality, scalability vs maintenance, cloud vs on-prem)
+
+---
+
+### Context Data
+
+* **POC Volume:** 100 GB of emails + attachments
+* **System Goal:** semantic archiving + thread reconstruction + event insight + RAG QA
+* **Expected Load:**
+    * 1,000 RAG queries / month
+    * 100 new attachments / month
+* **Reference AI Models:**
+    * Embedding → all-MiniLM-L12-v2 (open source, local)
+    * LLM → Mistral 7B Instruct or GPT-4-mini (API or managed inference)
+
+---
+
+### Expected Deliverables
+
+#### 1. Assumptions
+
+#### 2. Final Architecture (Diagram or Description)
+
+#### 3. Cost Estimation Table
+
+
+#### 4. Final Commentary (max 300 words)
+
 Good luck!
