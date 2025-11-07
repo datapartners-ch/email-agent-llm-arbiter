@@ -68,8 +68,6 @@ You must:
 * Justify technology choices (e.g., PostgreSQL vs DynamoDB, Pinecone vs Chroma, Mistral vs GPT)
 * Discuss main trade-offs (cost vs quality, scalability vs maintenance, cloud vs on-prem)
 
----
-
 ### Context Data
 
 * **POC Volume:** 100 GB of emails + attachments
@@ -80,8 +78,6 @@ You must:
 * **Reference AI Models:**
     * Embedding → all-MiniLM-L12-v2 (open source, local)
     * LLM → Mistral 7B Instruct or GPT-4-mini (API or managed inference)
-
----
 
 ### Expected Deliverables
 
